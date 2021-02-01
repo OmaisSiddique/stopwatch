@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.container{
+    height:100%;
+    background-image: url(stopwatch1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    text-align: center;
+    font-size: 50px;
+    background-color:skyblue ;
+
+}
+.time h1{
+    background-color: goldenrod;
+    font-size: 100px;
+    display: inline-block;
+    margin: 5px;
+    width:200px;
+    border-radius: 20px;
+}
+.start button{
+            font-size: 30px;
+            border-radius: 10px;
+            margin: 10px;
+            background-color: #c2b280 ;
+            
+}
